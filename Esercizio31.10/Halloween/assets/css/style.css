@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+html,
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;    
+    font-size: 1.2rem;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+#logo {
+    background-color: black;
+    padding: 20px;
+}
+
+#dev {
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    box-sizing: content-box;
+    height: 80vh;
+    text-align: center;
+    padding: 100px;
+    font-size: 3em;
+    color: #25a2c3;
+    font-family: Mon;
+}
+
+.titolo {
+    font-size: 20px;
+    margin: 0 auto;
+    color: black;
+}
+
+button {
+    background-color: #f04c2f;
+    color: white;
+    font-size: 15px;
+    width: 110px;
+    height: 50px;
+    border-radius: 8px;
+    border-color: #f04c2f;
+}
+
+#photo-pc {
+    background-color: white;
+    margin: 0 auto;
+    width: 100%;
+    overflow: hidden;
+    text-align: left;
+    padding: 70px;
+
+
+}
+
+.photo-pc {
+    border-radius: 50%;
+    float: left;
+    margin: 40px 60px 20px 60px;
+}
+
+.photo-pc,
+h2 {
+    color: #25a2c3;
+    font-size: 45px;
+}
+
+#red {
+    background-color: #f04c2f;
+    box-sizing: content-box;
+}
+
+.red {
+    color: white;
+    font-size: 2rem;
+    text-decoration: solid;
+    text-align: center;
+    padding: 50px 50px 25px 50px;
+
+}
+
+.post {
+    color: white;
+    font-style: italic;
+    text-align: center;
+    padding: 0px 50px 20px 50px;
+}
+
+.post h4 {
+    font-style: normal;
+    font-size: 18px;
+}
+
+.autore {
+    font-size: 25px;
+    font-style: normal;
+}
+
+
+.card {
+
+    float: left;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    margin: 15px;
+    text-align: center;
+}
+
+.card:nth-child(3) {
+    margin-right: 0;
+    float: right;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+
+}
+
+.card img {
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+
+    background-color: white;
+    width: 80%;
+    float: left;
+    background-color: white;
+    padding: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.container h4 {
+    color: #25a2c3;
+}
+
+#recapiti {
+    color: white;
+    text-align: center;
+    float: inline-start;
+    margin-top: 20px;
+    width: 100%;
+    height:auto;     
+}
+
+.contatti {
+    background-color: #25a2c3;
+    text-align: center;
+    box-sizing: content-box;
+    color: white;
+    font-size: 1.5em;
+    padding: 15px;
+    width: 100%;
+}
+#phone img{
+    width: 18px;
+    text-align: center;
+}
+#phone{
+    font-size: 18px;
+}
+#mail img{
+    width: 18px;
+    text-align: center;
+}
+#mail{
+    font-size: 18px;
+}
+#maps img{
+    width: 18px;
+    text-align: center;
+}
+#maps{
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.container2{
+    font-size: 15px;
+}
